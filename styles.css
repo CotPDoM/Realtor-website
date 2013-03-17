@@ -1,0 +1,95 @@
+* {
+/*	border: solid red 1px !important;*/
+}
+
+body {
+}
+
+#main-header {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	color: white;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav  li {
+    float: left;
+    margin-left: 15px;
+    position: relative;
+}
+
+nav {
+	height:50px;
+}
+
+#main {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	width: 63%;
+	margin-left: 10px;
+	float: left;
+}
+
+aside {
+	width: 32%;
+	float: right;
+	margin-right: 10px;
+}
+
+.box {
+	border: solid black 1px;
+	margin: 8px;
+}
+
+figure {
+	margin: 8px;	
+}	
+	
+.secondary-picture {
+	width: 20%;
+	padding: 3px;
+	height: auto;
+}	
+
+#main-picture{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer{
+	clear: both;
+	color: white;
+	background-color: black;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+}
+
+#copyright {
+	float: left;
+	margin-left: 20px;
+}
+
+#f-contact {
+	float: right;
+	margin-right: 20px;
+}
+
+footer a, header a {
+	color: white;
+}

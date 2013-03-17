@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Totally Trustworthy Realtor Site</title>
+		<link rel="stylesheet" type="text/css" href="http://students.thenet.ca/npearson/week5/styles.css" title="Main Style" media="screen" />
 	</head>
 	<body>
 	<header id="main-header">
@@ -14,43 +15,49 @@
 			</ul>
 		</nav>			
 	</header>
-	<article>
-		<header>
-			<h1 id="address"></h1>
-			<h2 id="price"></h2>
-		</header>
-		<figure>
-			<img id="main-picture" src=" " />
-			<img class="secondary-picture" src=" " />
-			<img class="secondary-picture" src=" " />
-			<img class="secondary-picture" src=" " />
-			<img class="secondary-picture" src=" " />
-		</figure>
-		<div id="description" class="box">
-			<h2>Description</h2>
-			<p>A whole bunch of mumbo jumbo about how lovely this house/apartment/loft/condo/bungalo is, and that you should buy now or else you'll regret it</p>
-		</div>
-		<div id="listing-info" class="box">
-			<h2>Listing Information</h2>
-			<p>A table of info</p>
-		</div>
-		<div id="features" class="box">
-			<h2>Features</h2>
-			<p>A table of Features</p>
-		</div>
-		<div id="map" class="box">
-			<h2>Map</h2>
-			<p>A inserted iframe Google Map</p>
-		</div>
-		<div id="viewing-dates" class="box">
-			<h2>Viewing Dates</h2>
-			<p>A table of viewing dates</p>
-		</div>
-		<div id="contact-info" class="box">
-			<h2>Contact Information</h2>
-			<p>Contact details</p>
-		</div>
-	</article>
+	<div id="main">
+		<article>
+			<header>
+				<h1 id="address">#102 - 1245 Main Street</h1>
+				<h2 id="price">$600,000</h2>
+			</header>
+			<figure>
+				<img id="main-picture" src="1.jpg" />
+				<div id="secondary-pictures">
+					<img class="secondary-picture" src="2.jpg" />
+					<img class="secondary-picture" src="3.jpg" />
+					<img class="secondary-picture" src="4.jpg" />
+					<img class="secondary-picture" src="5.jpg" />
+				</div>
+			</figure>
+			<div id="description" class="box">
+				<h2>Description</h2>
+				<p>A whole bunch of mumbo jumbo about how lovely this house/apartment/loft/condo/bungalo is, and that you should buy now or else you'll regret it</p>
+			</div>
+			<div id="listing-info" class="box">
+				<h2>Listing Information</h2>
+				<p>A table of info</p>
+			</div>
+			<div id="features" class="box">
+				<h2>Features</h2>
+				<p>A table of Features</p>
+			</div>
+		</article>
+		<aside>
+			<div id="map" class="box">
+				<h2>Map</h2>
+				<p>A inserted iframe Google Map</p>
+			</div>
+			<div id="viewing-dates" class="box">
+				<h2>Viewing Dates</h2>
+				<p>A table of viewing dates</p>
+			</div>
+			<div id="contact-info" class="box">
+				<h2>Contact Information</h2>
+				<p>Contact details</p>
+			</div>
+		</aside>
+	</div>
 	<footer>
 		<p id="copyright">&copy2013 - Truly Trustworthy Realtors</p>
 		<p id="f-contact"><a href=" ">Contact Us</a></p>
